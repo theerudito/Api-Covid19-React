@@ -73,7 +73,7 @@ const Page = () => {
     setPaises1(true);
     setContinente(true);
     setLoading(false);
-		setSearch("")
+    setSearch("");
   };
 
   // if (data.trim() === "") {
@@ -123,7 +123,7 @@ const Page = () => {
         </div>
 
         <div>
-          <button className="btn btn-primary" id="boton" onClick={ResetBandera}>
+          <button className="btn btn-primary" id="reset" onClick={ResetBandera}>
             Reset
           </button>
         </div>
@@ -172,6 +172,7 @@ const Page = () => {
             <p id="recovered">Total De Recuperados: {country.CasesRecovered}</p>
           </div>
         )}
+        <p id="autor">By @theerudito</p>
       </div>
     </Fragment>
   );

@@ -13,6 +13,11 @@ body {
 	border: 2px solid rgb(142, 196, 17);
 }
 
+#autor {
+	color: rgb(29, 209, 53);
+	margin: 1px;
+}
+
 #contenedor:hover {
 	background-color: #1b1c1f;
 	border-radius: 10px;
@@ -31,6 +36,15 @@ body {
 	display: flex;
 	gap: 40px;
 	margin: 10px auto;
+	margin-left: 100px;
+	border: lightblue solid 2px;
+}
+
+#reset {
+	display: flex;
+	gap: 40px;
+	margin-top: -50px;
+	margin-left: 180px;
 	border: lightblue solid 2px;
 }
 
