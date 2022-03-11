@@ -8,41 +8,40 @@ body {
 	border-radius: 10px;
 	color: aliceblue;
 	display: block;
-	width: auto;
+	width: 380px;
 	margin: 10px auto;
-	height: auto;
 	border: 2px solid rgb(142, 196, 17);
 }
 
 #contenedor:hover {
-	background-color: #4e5561;
+	background-color: #1b1c1f;
 	border-radius: 10px;
 	color: rgb(30, 181, 207);
-	width: auto;
+	width: 380px;
 	margin: 10px auto;
 	height: auto;
 }
 
 #input {
-	display: flex;
-	align-items: center;
-	width: 330px;
-	border: none;
+	width: 300px;
 	border: blueviolet solid 2px;
 }
 
 #boton {
+	display: flex;
 	gap: 40px;
 	margin: 10px auto;
 	border: lightblue solid 2px;
 }
 
 #flag {
+	display: flex;
 	width: 150px;
 	height: 100px;
 	border: blueviolet solid 2px;
 	border-radius: 20px;
 	margin: 10px;
+	margin-left: 28%;
 }
 
 #estadistic {
